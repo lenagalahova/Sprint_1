@@ -15,6 +15,5 @@ for time in times:
     else:
         time = int(time.replace('m',' '))
         i+=time
-        
 print(i)
     
