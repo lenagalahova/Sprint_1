@@ -6,6 +6,7 @@ world_champions = {
     2018: 'Франция',
 }
 
+
 world_champions['2022'] = 'Аргентина'
 for key , value in world_champions.items():
     print(key, ' - ', value)
