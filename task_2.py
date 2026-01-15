@@ -9,6 +9,7 @@ class Tester():
         else:
             print(self.name, 'Можно отдыхать')
 
+
 tester_1 = Tester(name='tester_1')
 tester_1.work_hard(deadline=False)  # 'tester_1 Можно отдыхать'
 tester_2 = Tester(name='tester_2')
