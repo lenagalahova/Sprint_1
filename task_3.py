@@ -11,7 +11,6 @@ for key , value in world_champions.items():
     print(key, ' - ', value)
 
 country = 'Италия'
-
 if 'Италия' in world_champions.values():
     print('Италия cтановилась чемпионом мира по футболу в 21 веке!')
 else:

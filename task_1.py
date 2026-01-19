@@ -4,6 +4,7 @@ times_str=times_str.replace(',' , ' ')
 times=times_str.split(' ')
 i=0
 
+
 for time in times:
     if 'h' in time:
         time = int(time.replace('h',' '))
